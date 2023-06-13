@@ -20,7 +20,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            Know Me More
+            About Me
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -36,15 +36,21 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-primary">Richard Albee,</span> a System Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            I am an enthusiastic technical lead excited by digging into new things and finding process improvements.
+            My leadership and interpersonal skills bridge the gap between technical and non-technical business departments. 
+            I have demonstrated experience leading medium and large company initiatives to completion. 
+            Optimizing production-facing business practices involving application workflows is my specialty. 
+            I'll lead teams, coordinate with SMEs, reach out to stakeholders, and design and then iterate upon effective 
+            solutions for all parties involved.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+            My time in social services taught me to bring exceptional customer service and servant leadership to the 
+            workplace. I establish working relationships across departments, ask 
+            questions about pain points in their jobs, and involve stakeholders in the 
+            design process. Constant feedback creates a positive-feedback process 
+            improvement loop leaving stakeholders feeling heard and engaged with new solutions.
+            Similarly, while leading others, I set aside time to flexibly help and mentor junior coworkers;
+            by hangs-on engaging with their business pain points, I can design effective solutions. 
             </p>
           </div>
           {/* About me content end */}
@@ -65,7 +71,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <a href="mailto:chat@simone.com">RALBEE1@IWU.EDU</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Phone:</span>(815) 980-6278
                 </li>
                 <li className="border-0">
                   <span className="fw-600 me-2">From:</span>Rockford, IL
@@ -113,10 +119,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>250</span>+
+                  <span>$5,600,000</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Happy Clients
+                  Revenue Recovered
                 </p>
               </div>
             </div>
@@ -128,10 +134,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>4000</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
+                  Project Management Hours
                 </p>
               </div>
             </div>
@@ -143,10 +149,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>38</span>
+                  <span>26</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Get Awards
+                  Staff Led / Managed
                 </p>
               </div>
             </div>

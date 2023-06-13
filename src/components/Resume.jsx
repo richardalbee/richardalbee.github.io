@@ -7,46 +7,40 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2013 - 2017",
       title: "Bachelor Degree",
       place: "Illinois Wesleyan University",
-      desc: "Psychology major with Comp Science and Premed classes.",
+      desc: "Psychology major with Computer Science and Premed coursework.",
     },
     {
-      yearRange: "2005 - 2008",
-      title: "Bachelor Degree",
-      place: "University of California",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2009 - 2012",
-      title: "Master Degree",
-      place: "Harvard University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "Current",
+      title: "Certifications",
+      place: "",
+      desc: "AWS Cloud Practitioner",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2013 - 2017",
-      title: "Desktop Support Engineer / IT Help Desk Team Lead",
-      place: "Illinois Wesleyan University",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2022 - 2023",
+      title: "Senior Technical Support Engineer (System Engineer)",
+      place: "Moxe Health",
+      desc: " Led a team of 4+ software developers on the Engineering-Support team to identify and resolve software application bugs, develop missing product features, and optimize application performance and reliability.",
+    },
+    {
+      yearRange: "2019 - 2022",
+      title: "System Admin & Service Desk Manager",
+      place: "Credit Union National Association",
+      desc: "I managed Windows Servers, VPN and Network Infrastructure, databases, Linux, hybrid Azure, Office 365, Dynamics 365, Okta, and Jira environments. While managing a Service Desk team of 3, I focused on improving support practices, KPIs, and SLAs.",
     },
     {
       yearRange: "2017 - 2019",
       title: "Social Service Worker",
       place: "Lutheran Social Services",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "I mentored high-need families and kiddos interpersonal skills to help them to reach their life goals. I resolved conflict and provided support to help families get back on their feet again. I also automated previously manual processes for calculating revenue of 10+ employees.",
     },
     {
-      yearRange: "2019 - 2022",
-      title: "System Admin / Service Desk Manager",
-      place: "Credit Union National Association",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
-    {
-      yearRange: "2022 - 2023",
-      title: "Senior Technical Support Engineer (Lead System Engineer)",
-      place: "Moxe Health",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2013 - 2017",
+      title: "Desktop Support Engineer & Service Desk Team Lead",
+      place: "Illinois Wesleyan University",
+      desc: "Hired, trained, and managed a team of 12 to provide level 1 helpdesk support. I concurrently managed over 500+ workstations across campus.",
     },
   ];
 
@@ -64,7 +58,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 70,
     },
     {
-      name: "Windows Engineering",
+      name: "Windows Engineer",
       percent: 90,
     },
     {
@@ -74,6 +68,14 @@ const Resume = ({ classicHeader, darkTheme }) => {
     {
       name: "Project Management",
       percent: 80,
+    },
+    {
+      name: "Databases",
+      percent: 70,
+    },
+    {
+      name: "System Administration",
+      percent: 90,
     },
   ];
 

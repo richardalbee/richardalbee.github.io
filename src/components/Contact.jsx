@@ -91,7 +91,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               Contact Info
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-             [world Icon]Madison Wi
+              .
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">

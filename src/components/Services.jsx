@@ -5,32 +5,32 @@ const Services = ({ classicHeader, darkTheme }) => {
   const services = [
     {
       name: "Solution Architecture",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Designing application workflows, production processes, and automation tooling.",
       icon: "fas fa-palette",
     },
     {
       name: "System Engineering",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Creating Cloud and On-Prem application environments: AWS, Azure, SQL, APIs, CI/CD, Active Directory, Networks, and much more!",
       icon: "fas fa-desktop",
     },
     {
       name: "Technical Project Management",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Leading production teams to implement new technical systems, process improvements, running software production operations.",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "Process Improvement",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Reporting",
+      desc: "Summarizing production data to make informed business decisions; and, audit production operations in order to ensure product and data integrity.",
       icon: "fas fa-paint-brush",
     },
     {
       name: "Automation",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Saving thousands of hours of productivity and reducing human error through documented and scripted work practices.",
       icon: "fas fa-chart-area",
     },
     {
-      name: "Leadership",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      name: "Team Leadership",
+      desc: "The art of balancing the interpersonal and career growth needs of coworkers while ensuring business operations continue running smoothly.",
       icon: "fas fa-bullhorn",
     },
   ];
