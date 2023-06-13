@@ -1,30 +1,55 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 
-const Footer = (props) => {
-  const bgStyle = { backgroundColor: "#f5f5f5" };
-
+const Footer = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
-    <footer style={bgStyle} className="mt-auto py-5 text-center ">
-      <Container>
-        {props.children}
-        <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
-        <a
-          rel="noopener"
-          href="https://github.com/hashirshoaeb"
-          aria-label="My GitHub"
-        > <span className="badge bg-dark">
-            Hashir Shoaib
-          </span>
-        </a>{" "}
-        using <i className="fab fa-react" />
-        <p>
-          <small className="text-muted">
-            Project code is open source. Feel free to fork and make your own
-            version.
-          </small>
-        </p>
-      </Container>
+    <footer
+      id="footer"
+      className={"section " + (darkTheme ? "footer-dark bg-dark-1" : "")}
+    >
+      <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
+        <div className="row">
+          <div className="col-lg-6 text-center text-lg-start">
+            <p className="mb-3 mb-lg-0">
+              Copyright © 2023{" "}
+              <a
+                href="#home"
+                className="fw-500"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick("home");
+                }}
+              >
+                Simone
+              </a>
+              . All Rights Reserved.
+            </p>
+          </div>
+          <div className="col-lg-6">
+            <ul className="nav nav-separator justify-content-center justify-content-lg-end">
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#terms-policy"
+                  href="#terms-policy"
+                >
+                  Terms &amp; Policy
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#disclaimer"
+                  href="#disclaimer"
+                >
+                  Disclaimer
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };
