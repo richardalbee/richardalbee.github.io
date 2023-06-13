@@ -28,6 +28,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 .netrc
+simone-portfolio-template.zip
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

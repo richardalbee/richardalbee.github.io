@@ -88,10 +88,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
               }
             >
-              Address
+              Contact Info
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              Madison Wi
+             [world Icon]Madison Wi
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">

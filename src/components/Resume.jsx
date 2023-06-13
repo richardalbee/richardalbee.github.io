@@ -52,28 +52,28 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "Python",
+      percent: 75,
     },
     {
-      name: "HTML/CSS",
-      percent: 95,
+      name: "Powershell",
+      percent: 85,
     },
     {
-      name: "JavaScript",
-      percent: 80,
-    },
-    {
-      name: "React JS",
+      name: "AWS / Azure",
       percent: 70,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "Windows Engineering",
+      percent: 90,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "REST API",
+      percent: 75,
+    },
+    {
+      name: "Project Management",
+      percent: 80,
     },
   ];
 
@@ -217,7 +217,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             href={resumeFile}
             download
           >
-            Download CV
+            Download Resume
             <span className="ms-1">
               <i className="fas fa-download" />
             </span>

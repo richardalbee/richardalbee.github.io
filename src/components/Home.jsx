@@ -38,7 +38,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                         "I'm Richard Albee.",
                         "I'm a System Engineer.",
                         "I'm a Solution Architect.",
-                        "I'm an IT Project Manager.",
+                        "I'm a Technical Project Manager.",
                       ],
                       autoStart: true,
                       loop: true,
