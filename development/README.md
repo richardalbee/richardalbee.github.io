@@ -93,7 +93,7 @@ This is an guide for testing website changes locally.
 
 ### Local Testing
 
-From project root:
+From the development/ folder:
 
 Create the local test environment (One Time Only)
 ```js
@@ -109,7 +109,7 @@ npm run start
 
 ### Push to Production
 
-From project root:
+From the development/ folder:
 ```js
 npm run build
 ```
