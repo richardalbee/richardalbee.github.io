@@ -21,7 +21,6 @@ jobs:
 
 
   build-and-deploy:
-    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     defaults:
       run:
