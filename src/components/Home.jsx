@@ -47,7 +47,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Madison, Wisconsin.
+                  based in Madison, Wisconsin2.
                 </p>
                 <a
                   href="#contact"
