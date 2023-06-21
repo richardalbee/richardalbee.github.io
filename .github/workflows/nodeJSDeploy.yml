@@ -5,6 +5,9 @@ name: Deploy Node.js package to portfolio website
 
 on: [workflow_dispatch]
 
+permissions:
+  contents: write
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
