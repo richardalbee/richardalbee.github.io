@@ -113,7 +113,7 @@ npm run start
 
 There are two ways you can update the website.  After merging your changes to master, you can manually build the compiled website source files or use github actions. Compiled files are copied to the gh-pages branch where they are then deployed. 
 
-Github Actions Deploy:
+**Github Actions Deploy:**
 Create a release to trigger the github action, named Deploy Node.js package to portfolio website, to compile the node.js files and deploy. Use the following formatting for creating a release
 
 Tag: v0.0.1 -> v0.0.2 increment by 0.0.1 unless a major version.
@@ -122,7 +122,7 @@ Release Name: {version} Release Name
 There are built in tests looking to see if the website is comiling and rendering objects properly. These are configured in /src/ setupTests.js and App.test.js
 
 
-Manual Deploy:
+**Manual Deploy:**
 
 From project root:
 ```js
