@@ -26,7 +26,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       readme: "",
       url: {
         name: "My Portfolio's Development Repo",
-        link: "https://github.com/richardalbee/portfolio-development",
+        link: "https://github.com/richardalbee/richardalbee.github.io",
       },
       socialLinks: {
         linkedin: "https://www.linkedin.com/in/richard-albee/",

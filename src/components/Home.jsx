@@ -37,9 +37,9 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                       strings: [
                         "I'm Richard Albee",
                         "I'm a System Engineer",
-                        "I'm a Lead System Analyst",
-                        "I'm a Technical Project Manager",
-                        "I'm a IT Manager",
+                        "I'm a System Analyst",
+                        "I'm a Technical PM",
+                        "I'm an IT Manager",
                       ],
                       autoStart: true,
                       loop: true,
