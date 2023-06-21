@@ -61,9 +61,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-As an ethusiastic technical lead and generalist, my portfolio website was inspired by the need to showcase my breadth of skillsets. A resume listing accomplishments failed to capture my application development ability and leadership capacity. Working 55+ hours week and studying during off hours in order to fill SME company gaps leaves little time for getting certifications. This website is also a showcase of that ability in itself as well.
+As an ethusiastic technical lead and generalist, the need for my portfolio website was inspired by the need to showcase my breadth of skillsets. A resume listing accomplishments failed to capture my application development ability and leadership capacity since working 55+ hours week leaves little time for getting certifications. 
 
-This is my second react, nodejs project.
+The goal of my portfolio website is two-fold. Demonstrate my other skills and abilities while simultaneously demonstrating my ability to develop a website and CI/CD workflows into Github. My portfolio website intends to show I am capable of digging into and developing solutions for broad range of technical areas.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
