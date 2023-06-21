@@ -18,15 +18,11 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 .netrc
-simone-portfolio-template.zip
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
