@@ -8,17 +8,16 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![page-counter][Portfolio Views]
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/richardalbee/portfolio-development">
-    <img src="public/logo192.png" alt="Logo" width="80" height="80">
+    <img src="public/logo192.png" alt="Logo" width="160" height="160">
   </a>
 
-<h3 align="center">LegoPython</h3>
+<h3 align="center">Richard Albee Portfolio</h3>
 
   <p align="center">
     Github repo devoted to developing Richard Albee's react portfolio website.
