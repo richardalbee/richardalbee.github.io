@@ -62,7 +62,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-As an ethusiastic technical lead and generalist, the need for my portfolio website was inspired by the need to showcase my breadth of skillsets. A resume listing accomplishments failed to capture my application development ability and leadership capacity since working 55+ hours week leaves little time for getting certifications.
+As an ethusiastic technical lead and generalist, the need for my portfolio website was inspired by the need to showcase my breadth of technical capacity. A resume listing my accomplishments fails to capture my technical ability un the same way as my portfolio does.
 
 The goal of my portfolio website is two-fold. Demonstrate my other skills and abilities while simultaneously demonstrating my ability to develop a website and CI/CD workflows into Github. My portfolio website intends to show I am capable of digging into and developing solutions for broad range of technical areas.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,9 +114,9 @@ npm run start
 There are two ways you can update the website.  After merging your changes to master, you can manually build the compiled website source files or use github actions. Compiled files are copied to the gh-pages branch where they are then deployed. 
 
 Github Actions Deploy:
-Create a release to trigger the github action deploy. Format:
+Create a release to trigger the github action, named Deploy Node.js package to portfolio website, to compile the node.js files and deploy. Use the following formatting for creating a release
 
-Tag: v0.0.1 -> v0.0.2
+Tag: v0.0.1 -> v0.0.2 increment by 0.0.1 unless a major version.
 Release Name: {version} Release Name
 
 There are built in tests looking to see if the website is comiling and rendering objects properly. These are configured in /src/ setupTests.js and App.test.js

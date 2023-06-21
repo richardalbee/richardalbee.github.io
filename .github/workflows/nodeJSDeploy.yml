@@ -5,12 +5,12 @@ name: Deploy Node.js package to portfolio website
 
 on: [workflow_dispatch]
 
+permissions:
+  contents: write
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./development
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
