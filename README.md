@@ -72,7 +72,8 @@ The goal of my portfolio website is two-fold. Demonstrate my other skills and ab
 
 - [ ] **Dynamic About Me Section**
 - [ ] **Resume Link**
-- [ ] **Github Actions Deployments**
+- [ ] **Github Actions CI/CD Deployments**
+  - [ ] Includes testing workflow to ensure website builds properly
 - [ ] **Contact Me Email**
   - [ ] Up to 100 email a month via EmailJS
 - [ ] **Project Categories**
