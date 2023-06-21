@@ -25,7 +25,7 @@
     <a href="https://github.com/richardalbee/portfolio-development"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/richardalbee/portfolio-development">View Demo</a>
+    <a href="https://github.com/richardalbee/portfolio-development">View Portfolio</a>
     ·
     <a href="https://github.com/richardalbee/portfolio-development/issues">Report Bug</a>
     ·
