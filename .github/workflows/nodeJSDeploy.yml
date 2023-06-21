@@ -3,7 +3,9 @@
 
 name: Deploy Node.js package to portfolio website
 
-on: [workflow_dispatch]
+on:
+  release:
+    types: [published]
 
 permissions:
   contents: write
