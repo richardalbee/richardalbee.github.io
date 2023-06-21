@@ -46,4 +46,4 @@ jobs:
         with:
           branch: main
           folder: development/build
-          token: ${{ secrets.github_pages_token }}
+          token: ${{ secrets.PORTFOLIO_DEPLOY }}
