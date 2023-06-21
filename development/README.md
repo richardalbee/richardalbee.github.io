@@ -90,7 +90,7 @@ This is an guide for testing website changes locally.
 
 ### Prerequisites
 
-1. You'll need to install Node.js >=v18.0+ http://nodejs.org/
+1. You'll need to install Node.js / npm >=v18.0+ http://nodejs.org/
 
 ### Local Testing
 
