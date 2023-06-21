@@ -45,3 +45,4 @@ jobs:
         with:
           branch: main
           folder: development/build
+          repo-token: ${{ secrets.PORTFOLIO_DEPLOY }}
