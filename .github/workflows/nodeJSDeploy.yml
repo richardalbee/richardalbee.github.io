@@ -31,7 +31,8 @@ jobs:
         with:
           node-version: 18.6
       - name: Install and Build
-        run: 
+        run: |
+          npm ci
           npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
