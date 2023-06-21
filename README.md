@@ -93,7 +93,7 @@ This is an guide for testing website changes locally.
 1. You'll need to install Node.js >=v18.0+ http://nodejs.org/
 This project uses node -v 18.16.0 and npm -v 9.5.1.
 
-### Local Testing
+### Local Testing (Master Branch)
 
 From project root:
 
@@ -109,7 +109,7 @@ npm run start
 
  http://localhost:3000/ will automatically reload if you change any of the source files.
 
-### Push to Production
+### Push to Production (GH-Pages Branch)
 
 There are two ways you can update the website.  After merging your changes to master, you can manually build the compiled website source files or use github actions. Compiled files are copied to the gh-pages branch where they are then deployed. 
 
