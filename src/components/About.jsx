@@ -36,10 +36,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm <span className="text-primary">Richard Albee,</span> a System Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            I am an enthusiastic technical lead excited by exploratory digging and finding process improvements.
+            I am an enthusiastic technical lead excited by technical exploration and implementing process improvements.
              My leadership and interpersonal skills bridge the gap between technical and non-technical departments.
               I have demonstrated experience leading medium to large company initiatives to completion.
-               Optimizing production application workflows and business practices is my specialty. I'll lead teams,
+               Optimizing production application workflows and business practices is my passion. I'll lead teams,
                 collaborate with technical SMEs, reach out to stakeholders, and design and follow up with all parties involved to ensure solution effectiveness.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
