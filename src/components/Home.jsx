@@ -36,10 +36,10 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     options={{
                       strings: [
                         "I'm Richard Albee",
-                        "I'm a System Engineer",
-                        "I'm a System Analyst",
-                        "I'm a Technical PM",
-                        "I'm an IT Manager",
+                        "I'm a Technical Lead",
+                        "I'm a IT Manager",
+                        "I'm a Python Developer",
+                        "I'm an System Engineer",
                       ],
                       autoStart: true,
                       loop: true,
